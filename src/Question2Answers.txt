@@ -1,15 +1,19 @@
-1)  a) The method that is being called is call(int) in the Dog class. 
+1)  a) The method that is being called is call(int) in the Dog class. This is overriding/polymorphism and overloading
+    from the Pet class.
 
-    b) The method that is being called is toString() in the Cat class.
+    b) The method that is being called is toString() in the Cat class. This is overriding/polymorphism from the Object
+    class.
 
-    c) This causes an error because there is no call method in the Object class.
+    c) This causes an error because there is no call method in the Object class. It was an error.
 
-    d) The method that is being called is toString() in the Object class.
+    d) The method that is being called is toString() in the Object class. This is polymorphism from the Object class.
 
-    e) The method that is being called is call() in the Dog class.
+    e) The method that is being called is call() in the Dog class. This is overriding/polymorphism from the Pet class.
 
-    f) The method that is being called is toString(String) in the Cat class.
+    f) The method that is being called is toString(String) in the Cat class. This is overriding/polymorphism and
+    overloading from the Object class.
 
-    h) The method that is being called is feet() that was inherited from the Pet class.
+    h) The method that is being called is feet() that was inherited from the Pet class. This is polymorphism from the
+    Pet class.
 
-    i) This causes an error because Pet doesn't have a call(int) method.
+    i) This causes an error because Pet doesn't have a call(int) method. It was an error.
