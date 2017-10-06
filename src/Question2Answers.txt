@@ -1,4 +1,4 @@
-1)  a) The method that is being called is call(int) in the Dog class.
+1)  a) The method that is being called is call(int) in the Dog class. 
 
     b) The method that is being called is toString() in the Cat class.
 
