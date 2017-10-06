@@ -1,13 +1,9 @@
 package Shape;
 
 public class Shape {
-    protected int sides = 5;
+    protected Integer sides;
+    protected String name;
 
     public Shape(){}
 
-    public String toString(){
-        String s = new String();
-        s += sides;
-        return s;
-    }
 }

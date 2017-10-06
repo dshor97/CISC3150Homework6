@@ -1,19 +1,24 @@
 package Pentagon;
 
-//import Shape.Shape;
 
 public class Main {
     public static void main(String[] args){
         Pentagon p = new Pentagon();
-        System.out.println(p.printSides());
+        p.changeProtected();
+        System.out.println(p);
     }
 }
 class Pentagon extends Shape.Shape{
 
-    public Pentagon(){}
+    public void changeProtected(){
+        sides = 5;
+        name = "Pentagon";
+    }
 
-    public Shape.Shape printSides(){
-        Shape.Shape s = new Shape.Shape();
+    public String toString(){
+        String s = new String();
+        s += this.name + " has " + sides + " sides.";
         return s;
     }
+    public Pentagon(){}
 }
